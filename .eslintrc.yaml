@@ -1,0 +1,18 @@
+env:
+  browser: true
+  commonjs: true
+  node: true
+extends:
+  - prettier
+  - eslint:recommended
+  - plugin:react/recommended
+globals:
+  beforeEach: true
+  describe: true
+  it: true
+parser: babel-eslint
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+plugins:
+  - react
