@@ -13,7 +13,7 @@ const TextTree = require('./TextTree')
 const nodeCounts = [50, 100, 500, 1000, 5000]
 const modes = keyBy(['text', 'html'])
 
-module.exports = class MyTree extends React.PureComponent {
+module.exports = class App extends React.PureComponent {
     static displayName = 'App'
     constructor(props) {
         super(props)

@@ -9,7 +9,7 @@ const getTree = require('../getTree')
 
 module.exports = function getExampleTree(Node) {
     const Tree = getTree(Node)
-    return class MyTree extends React.PureComponent {
+    return class ExampleTree extends React.PureComponent {
         static defaultProps = {
             hiddenNodes: new Set(),
             selectedNodes: new Set(),
